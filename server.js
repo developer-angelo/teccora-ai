@@ -56,7 +56,7 @@ app.post('/api/gemini', async (req, res) => {
         generationConfig: {
           temperature: 0.5,
           topP: 0.8,
-          maxOutputTokens: 500
+          maxOutputTokens: 8192
         }
       }
     );
